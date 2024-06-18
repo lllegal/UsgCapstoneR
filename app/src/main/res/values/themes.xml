@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.USGcap" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.USGcap" parent="Base.Theme.USGcap" />
+
+    <!-- 버튼 스타일 정의 -->
+    <style name="DialogButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/dialog_button_background</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <!-- 확인 버튼 스타일 정의 -->
+    <style name="ConfirmButtonStyle" parent="DialogButtonStyle">
+        <item name="android:backgroundTint">@color/mainColor</item> <!-- 확인 버튼 색상 -->
+    </style>
+
+    <!-- 취소 버튼 스타일 정의 -->
+    <style name="CancelButtonStyle" parent="DialogButtonStyle">
+        <item name="android:background">@drawable/dialog_button_cancel_background</item>
+        <item name="android:textColor">@color/mainColor</item> <!-- 취소 버튼 텍스트 색상 -->
+    </style>
+</resources>
